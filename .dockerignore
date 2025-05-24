@@ -1,0 +1,34 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+
+# Docker files
+docker-compose.yml
+Dockerfile
+
+# Documentation
+README.md
+*.md
+
+# Environment files
+.env
+.env.*
+
+# WordPress content (will be mounted as volume)
+wp-content/
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db 
