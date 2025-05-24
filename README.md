@@ -46,8 +46,8 @@ docker-compose up -d wordpress mysql
 
 ### 3. Access Your Sites
 
-- **WordPress**: http://localhost:8080
-- **phpMyAdmin**: http://localhost:8081
+- **WordPress**: http://localhost:8888
+- **phpMyAdmin**: http://localhost:8889
   - Username: `root`
   - Password: `root_password`
 
@@ -75,9 +75,9 @@ environment:
 
 ### Ports
 
-- **WordPress**: 8080
-- **MySQL**: 3306
-- **phpMyAdmin**: 8081
+- **WordPress**: 8888
+- **MySQL**: 3307
+- **phpMyAdmin**: 8889
 
 ## File Structure
 
@@ -107,7 +107,7 @@ phpinfo();
 ?>
 ```
 
-Then visit: `http://localhost:8080/wp-content/ioncube-test.php`
+Then visit: `http://localhost:8888/wp-content/ioncube-test.php`
 
 ## Common Commands
 
