@@ -1,9 +1,9 @@
-# Use the latest WordPress image as base
-FROM wordpress:latest
+# Use WordPress with PHP 8.1 to match ionCube encoded files
+FROM wordpress:php8.1-apache
 
 # Set maintainer information
 LABEL maintainer="WordPress ionCube Demo"
-LABEL description="WordPress with ionCube Loader support"
+LABEL description="WordPress with ionCube Loader support for PHP 8.1"
 
 # Install system dependencies and PHP extensions
 RUN apt-get update && apt-get install -y \
